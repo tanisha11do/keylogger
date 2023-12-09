@@ -72,6 +72,6 @@ start_button.pack(side=LEFT)
 stop_button = Button(root, text="Stop", command=stop_keylogger, state='disabled')
 stop_button.pack(side=RIGHT)
 
-root.geometry("500x500") 
+root.geometry("300x200") 
 
 root.mainloop()
